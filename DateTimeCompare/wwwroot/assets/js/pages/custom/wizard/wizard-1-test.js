@@ -445,9 +445,9 @@ var KTWizard1 = function () {
 		$('#kt_select2_3')
 			.on('change.select2', function () {
 				console.log(_validations);
-				var validatorr = _validations[0]
+				var validator = _validations[0]
 				// Revalidate the color field when an option is chosen
-				validatorr.revalidateField('param');
+				validator.revalidateField('param');
 			});
     }
 
