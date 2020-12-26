@@ -9,4 +9,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\assets\js\pages\custom\wizard\wizard-1 - Kopyala.min.js">
+      <DependentUpon>wizard-1.min.js</DependentUpon>
+    </Content>
+  </ItemGroup>
+
 </Project>
